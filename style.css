@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    border: 4px solid lightseagreen;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+.box-small{
+    width: 50px;
+    height: 50px;
+    margin-left: 24px;
+}
+
+.box-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    border: 4px solid darkgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.containertwo{
+    border: 4px solid blue;
+    padding: 24px 24px 24px 24px;
+}
+
+.row{
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+}
+
+.title{
+    border: 2px solid black;
+    background-color: crimson;
+    color: white;
+    width: 100%;
+    height: 24px;
+    margin-bottom:24px;
+}
+
+.boxtwo{
+    border: 4px solid lime;
+    background-color: darkcyan;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.box-wrappertwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerthree{
+    border: 4px solid purple;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxa{
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.box-smallone{
+    height: 50px;
+}
+
+.box-large{
+    width: 45%;
+}
+
+.box-wrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerfour{
+    border: 4px solid black;
+    padding: 80px 24px 80px 24px;
+}
+
+.rowtwo{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto -24px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxa{
+ border: 4px solid lightgray;
+ margin-bottom: 24px;
+}
+
+.box-smallone{
+    height: 50px;
+    background-color: coral;
+    border-color:blue;
+}
+
+.box-tiny{
+    width: 30%;
+    height: 50px;
+    border-color: darkgreen;
+    background-color: red;
+}
+
+.box-large{
+    width: 45%;
+    border-color: red;
+    background-color: lightblue;
+}
+
+.tiny-wrapper{
+display: flex;
+justify-content: space-between;
+}
